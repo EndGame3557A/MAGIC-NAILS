@@ -1,0 +1,132 @@
+.body-redes {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, rgb(240, 162, 247), rgba(255, 101, 235, 0.842));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menujh {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 100px;
+    background: #6d08439c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logoj{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbarj a
+{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: .3s;
+}
+
+.navbarj a:hover
+{
+    color: rgb(0, 247, 255);
+}
+
+.qr-empresa {
+    height: 400px;
+    border-radius: 5%;
+}
+
+.redes-titulo {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(226, 14, 102);
+}
+
+.container-formulario {
+    margin: 70px 170px ;
+    padding: 50px 55px;
+    background-color: rgba(250, 79, 116, 0.705);
+    box-shadow: 0 0 50px #6d08439c;
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titulo-formulario {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.label-form {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.input-form, .textarea-redes {
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #EDFFF0;
+    border: 2px solid #F0FAF1;
+}
+
+.input-form::placeholder, .textarea-redes::placeholder {
+    color: #59635a;
+}
+
+.btn-redes {
+    padding: 15px 25px;
+    color: #ffffff;
+    outline: none;
+}
+
+.btn-redes {
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #24fc7ac4;
+    box-shadow: 0 0 20px rgba(26, 255, 0, 0.664);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn-redes:hover {
+    background-color: #00ff66d3;
+    color: white;
+}
+
+.footer-redes {
+    position: fixed;
+    left: 0;
+    height: 50px;
+    bottom: 0%;
+    width: 100%;
+    background-color: #6d08439c;
+    color: white;
+    text-align: center;
+    padding: 6px 1px;
+}
